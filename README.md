@@ -122,8 +122,7 @@ iverilog -o alu_sim \
   07_comparator/*.v \
   08_mux/*.v \
   09_shifters/*.v \
-  10_alu/*.v \
-  tb/tb_alu64.v
+  10_alu/*.v 
 vvp alu_sim
 ```
 
