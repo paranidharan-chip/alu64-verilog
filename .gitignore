@@ -1,0 +1,40 @@
+# ---- Icarus Verilog ----
+*.vvp
+a.out
+alu_sim
+*.out
+
+# ---- Simulation waveform dumps ----
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.shm/
+
+# ---- Yosys ----
+# Yosys logs and intermediate netlists are ignored; keep final .svg schematics
+# tracked in syn/ if you want them versioned (comment the *.svg line out below
+# if you'd rather NOT commit generated schematics).
+*.ys.log
+yosys.log
+*.blif
+*.json
+# *.svg
+
+# ---- GTKWave ----
+*.gtkw
+
+# ---- Editor / OS junk ----
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ---- Misc build artifacts ----
+*.o
+*.obj
+*.exe
+*.bak
+*.tmp
